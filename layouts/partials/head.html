@@ -5,6 +5,8 @@
     {{/* Canonical link, RSS */}}
 
     <link rel="canonical" href="{{ .Permalink }}">
+    <script async src="https://analytics.umami.is/script.js" data-website-id="3024565f-3689-4149-a1ca-bd057f0da7c5"></script>
+
     {{- with .OutputFormats.Get "RSS" }}
     <link href="{{ .RelPermalink }}" rel="alternate" type="application/rss+xml" title="{{ $.Site.Title }}">
     <link href="{{ .RelPermalink }}" rel="feed" type="application/rss+xml" title="{{ $.Site.Title }}">
